@@ -1,0 +1,32 @@
+{
+  "name": "dsh-window-zoom",
+  "version": "0.1.0",
+  "description": "macOS window zoom for DSH Desktop: double-click the top bar to zoom the window to the screen work area and double-click again to restore — the native macOS title-bar behaviour, implemented as a client+host plugin pair with zero client-app changes. Runs osascript/System Events (no zoom button needed) and exposes POST /dsh-window-zoom/toggle.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "macos",
+    "window",
+    "zoom"
+  ]
+}
