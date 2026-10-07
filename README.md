@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/icon.svg" width="72" alt="dsh-window-zoom icon">
+</div>
+
 # dsh-window-zoom
 
 给 **DSH Desktop（macOS）** 补上「双击窗口顶部 = 缩放」的原生行为：双击展开到屏幕工作区，
